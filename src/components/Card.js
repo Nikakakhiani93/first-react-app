@@ -1,21 +1,21 @@
 import React from 'react';
-import Card1 from '../images/image-1.svg';
-import Star from '../images/star-icon.svg';
+// import img from '../images/image-1.svg';
+import { employees } from '../db';
 
-export default function Card(props) {
-  return (
+export default function Card() {
+  return employees.map((employee) => (
     <section className="card">
-      <img src={Card1} className="card--image" />
+      <img src={`../public/${employee.img}`} className="card--image" alt="" />
       <div className="card--stats">
-        <img src={Star} />
-        <span>5.0</span>
-        <span className="gray">(6) • </span>
-        <span className="gray">USA</span>
+        <img src={employee.icon} alt="" />
+        <span>{employee.stats}</span>
+        <span className="gray">({employee.statsAmount}) • </span>
+        <span className="gray">{employee.country}</span>
       </div>
-      <p>Life Lessons with Katie Zaferes</p>
+      <p>Life Lessons with {employee.fullName}</p>
       <p>
-        <b>From $136</b> / Person
+        <b>From ${employee.price}</b> / Person
       </p>
     </section>
-  );
+  ));
 }
