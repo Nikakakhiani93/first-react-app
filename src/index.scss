@@ -7,17 +7,6 @@ body {
   margin: 0;
 }
 
-// .container {
-//   width: 550px;
-//   margin: 0 auto;
-//   box-sizing: border-box;
-//   overflow-wrap: break-word;
-//   padding-top: 50px;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-// }
-
 nav {
   height: 70px;
   display: flex;
@@ -27,6 +16,10 @@ nav {
   > img {
     max-width: 100px;
   }
+}
+
+.gray {
+  color: #918e9b;
 }
 
 .hero {
@@ -51,5 +44,24 @@ nav {
 
   > p {
     margin-top: 0;
+  }
+}
+
+.card {
+  width: 176px;
+  font-size: 12px;
+
+  > p {
+    margin: 8px 0;
+  }
+
+  &--image {
+    width: 100%;
+    border-radius: 9px;
+  }
+
+  &--stats {
+    display: flex;
+    align-items: center;
   }
 }
