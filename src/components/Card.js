@@ -7,7 +7,6 @@ export default function Card(props) {
   } else if (props.location === 'Online') {
     badgeText = 'ONLINE';
   }
-  console.log(props);
   return (
     <div className="card" key={props.id}>
       {badgeText && <div className="card--badge">{badgeText}</div>}
