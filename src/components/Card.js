@@ -12,7 +12,7 @@ export default function Card() {
         <span className="gray">({employee.statsAmount}) • </span>
         <span className="gray">{employee.country}</span>
       </div>
-      <p>Life Lessons with {employee.fullName}</p>
+      <p className="card-title">Life Lessons with {employee.fullName}</p>
       <p>
         <b>From ${employee.price}</b> / Person
       </p>

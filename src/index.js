@@ -12,7 +12,9 @@ root.render(
     <div className="container">
       <Navbar />
       {/* <Hero /> */}
-      <Card />
+      <div className="card-section">
+        <Card />
+      </div>
     </div>
   </React.StrictMode>
 );
