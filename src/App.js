@@ -14,9 +14,9 @@ export default function App() {
         stats={employee.stats}
         fullName={employee.fullName}
         statsAmount={employee.statsAmount}
-        country={employee.country}
         price={employee.price}
         openSpots={employee.openSpots}
+        location={employee.location}
       />
     );
   });
