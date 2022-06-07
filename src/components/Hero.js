@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPicture from '../images/main-pic.svg';
+import MainPicture from '../main-pic.svg';
 
 export default function Hero() {
   return (

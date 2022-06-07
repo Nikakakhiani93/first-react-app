@@ -18,10 +18,12 @@ nav {
   }
 }
 
-.card-section {
+.cards-section {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
   overflow-x: auto;
 }
 
@@ -64,6 +66,7 @@ nav {
   &--title {
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: 5px;
   }
 
   &--image {

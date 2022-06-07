@@ -1,20 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
-import Navbar from '../src/components/Navbar';
-// import Hero from './components/Hero';
-import Card from '../src/components/Card';
-// import reportWebVitals from './reportWebVitals';
+import App from '../src/App';
+import style from '../src/style.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="container">
-      <Navbar />
-      {/* <Hero /> */}
-      <div className="card-section">
-        <Card />
-      </div>
-    </div>
+    <App />
   </React.StrictMode>
 );

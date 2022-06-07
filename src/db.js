@@ -1,5 +1,6 @@
 export const employees = [
   {
+    id: 1,
     fullName: 'Katie Zaferes',
     img: '../images/image-1.svg',
     icon: '../images/star-icon.svg',
@@ -7,8 +8,10 @@ export const employees = [
     statsAmount: '6',
     country: 'USA',
     price: '136',
+    openSpots: '0',
   },
   {
+    id: 2,
     fullName: 'Zorbeg Zhvania',
     img: '../images/image-2.svg',
     icon: '../images/star-icon.svg',
@@ -16,8 +19,10 @@ export const employees = [
     statsAmount: '36',
     country: 'USA',
     price: '100',
+    openSpots: '21',
   },
   {
+    id: 3,
     fullName: 'Epsia Directori',
     img: '../images/image-3.svg',
     icon: '../images/star-icon.svg',
@@ -25,5 +30,6 @@ export const employees = [
     statsAmount: '25',
     country: 'USA',
     price: '400',
+    openSpots: '16',
   },
 ];
